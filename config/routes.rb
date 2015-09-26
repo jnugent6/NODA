@@ -2,6 +2,10 @@
 
   get 'welcome' => 'pages#home'
   get 'init' => 'pages#players'
+  get 'info' => 'pages#setup'
+  get 'choose' => 'pages#start'
+  get 'customize' => 'pages#custom'
+  get 'link' => 'pages#url'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -4,4 +4,16 @@ class PagesController < ApplicationController
 
 	def players
 	end
+
+	def setup
+	end
+
+    def start
+    end
+
+	def custom
+	end
+
+	def url
+	end
 end

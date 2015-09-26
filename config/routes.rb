@@ -1,12 +1,12 @@
  Rails.application.routes.draw do
 
   get 'welcome' => 'pages#home'
-  get 'pages/new' => 'pages#new'
-  post 'pages' => 'pages#create'
-  get 'info' => 'pages#setup'
-  get 'choose' => 'pages#start'
-  get 'customize' => 'pages#custom'
-  get 'link' => 'pages#url'
+
+  get 'players/new' => 'players#new'
+  post 'players' => 'players#create'
+
+  get 'names' => 'names#new'
+  post 'names' => 'names#create'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

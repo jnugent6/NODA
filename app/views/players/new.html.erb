@@ -1,0 +1,17 @@
+<div class = "main">
+  <div class = "container">
+    <h1>Hello, how many players are there?</h1>
+    <p>How many rounds would you like to play?</p>
+
+    <%= form_for(@numPlayers) do |f| %>  
+  <div class="field"> 
+    <%= f.label :player %><br> 
+    <%= f.text_area :content %> 
+  </div> 
+  <div class="actions"> 
+    <%= f.submit "Create" %> 
+  </div> 
+<% end %>
+
+  </div>
+</div>

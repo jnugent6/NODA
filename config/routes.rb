@@ -1,7 +1,8 @@
  Rails.application.routes.draw do
 
   get 'welcome' => 'pages#home'
-  get 'init' => 'pages#players'
+  get 'pages/new' => 'pages#new'
+  post 'pages' => 'pages#create'
   get 'info' => 'pages#setup'
   get 'choose' => 'pages#start'
   get 'customize' => 'pages#custom'

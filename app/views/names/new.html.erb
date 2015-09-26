@@ -1,0 +1,18 @@
+<div class = "main">
+  <div class = "container">
+    <h1>what are names?</h1>
+    <p></p>
+<% for i in 0..3 do %>
+  <%= form_for(@playerName) do |f| %>  
+    <div class="field"> 
+      <%= f.label :name %><br> 
+      <%= f.text_area :content %> 
+    </div> 
+    <div class="actions"> 
+      <%= f.submit "Add Player" %> 
+    </div> 
+  <% end %>
+<% end %>
+
+  </div>
+</div>

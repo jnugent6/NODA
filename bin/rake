@@ -1,4 +1,7 @@
 #!/usr/bin/env ruby.exe
 require_relative '../config/boot'
 require 'rake'
+
+puts 'running server'
+
 Rake.application.run
